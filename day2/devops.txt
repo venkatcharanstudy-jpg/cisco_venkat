@@ -1,0 +1,48 @@
+1. Plan Stage
+- Jira: A project management tool used to create tasks, track bugs, assign work, and manage sprints.
+- Azure Boards: Used to manage work items, backlogs, sprints, and project progress.
+- Confluence: Used to document project requirements, technical information, and team decisions.
+
+2. Code Stage
+- SCM (Source Code Management): The process of tracking and managing source code changes.
+- Git: A version control system used to track code changes, create branches, and merge code.
+- GitHub: A platform for hosting Git repositories, collaborating on code, and reviewing changes.
+- GitLab / Bitbucket: Platforms that host Git repositories and support collaboration and development workflows.
+
+3. Build Stage
+- Maven: A Java build automation tool used to manage dependencies, compile code, run tests, and package applications.
+- Gradle: A build automation tool used for compiling, testing, and packaging applications, particularly Java and Android projects.
+- Jenkins: Can automate application builds and other pipeline tasks.
+
+4. Test Stage
+- JUnit: A Java testing framework used to test individual methods and application components.
+- Selenium: A browser automation tool used to test web applications.
+- pytest: A Python testing framework used to write and run automated tests.
+- SonarQube: Analyzes source code to identify code quality issues and certain security vulnerabilities.
+- JMeter: Used to perform load and performance testing on applications and services.
+
+5. Release Stage
+- Jenkins: Automates CI/CD pipelines, including testing, packaging, and releasing software.
+- GitHub Actions: Automates workflows triggered by events such as code pushes and pull requests.
+- Git Tags: Mark specific versions of source code, making releases easier to identify.
+- Artifact Registry: Stores versioned build outputs, such as Docker images and application packages.
+
+6. Deploy Stage
+- Docker: Packages applications and their dependencies into container images and runs them in containers.
+- Kubernetes: Orchestrates containers and manages application scaling, availability, and updates.
+- Helm: Manages and deploys applications on Kubernetes using reusable charts.
+- Terraform: Provisions and manages infrastructure using configuration files.
+- Ansible: Automates server configuration, software installation, and deployment tasks.
+
+7. Operate Stage
+- Ansible: Automates repetitive operational tasks and maintains consistent configurations across servers.
+- Terraform: Manages infrastructure resources throughout their lifecycle.
+- Docker: Runs applications in isolated containers.
+- Kubernetes: Maintains and manages containerized applications in a cluster.
+
+8. Monitor Stage
+- Prometheus: Collects and stores metrics, such as CPU usage, memory usage, and request rates.
+- Grafana: Displays metrics and other data through dashboards and visualizations.
+- ELK Stack: Elasticsearch, Logstash, and Kibana are used to collect, process, search, and visualize logs.
+- Datadog: Provides application, infrastructure, and cloud monitoring.
+- New Relic: Helps monitor application performance, errors, and system health
